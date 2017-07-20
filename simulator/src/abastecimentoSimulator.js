@@ -7,9 +7,9 @@ class AbastecimentoSimulator {
     }
 
     _generateValorLitrosPrecoInRange(min, max) {
-        let valor = this._randomInRange(min, max).toString();
-        let litros = this._randomInRange(min, max).toString();
-        let pu = (parseFloat(valor) / parseFloat(litros)).toFixed(2).toString();
+        let valor = this._randomInRange(min, max).toString().replace(".",",");
+        let litros = this._randomInRange(min, max).toString().replace(".",",");
+        let pu = (parseFloat(valor) / parseFloat(litros)).toFixed(2).toString().replace(".",",");
         return {
             valor: valor,
             litros: litros,
