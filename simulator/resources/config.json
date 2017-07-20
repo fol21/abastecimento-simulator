@@ -1,0 +1,7 @@
+{
+    "simulador":{
+        "port":8081,
+        "serviceRoute":"/sale-api",
+        "controladoraRoute":"/sale/"
+    }
+}

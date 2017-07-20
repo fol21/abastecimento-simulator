@@ -1,0 +1,17 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "Simulador que retorna abastecimentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Fernando Lima",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "require": "^2.4.20"
+  }
+}
